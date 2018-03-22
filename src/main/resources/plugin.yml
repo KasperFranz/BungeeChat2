@@ -5,4 +5,4 @@ version: ${version}
 author: BrainStone
 description: ${description}
 url: https://www.spigotmc.org/threads/bungee-chat.93960
-softDepends: [BungeePerms, PowerfulPerms, LuckPerms]
+softDepends: [BungeePerms, PowerfulPerms, LuckPerms,RedisBungee]

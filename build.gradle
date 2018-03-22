@@ -13,6 +13,10 @@ repositories {
         name "luck-repo"
         url "https://repo.lucko.me/"
     }
+    maven {
+        name "md_5-snapshots"
+        url "http://repo.md-5.net/content/repositories/snapshots/"
+    }
 }
 
 dependencies {
@@ -25,6 +29,7 @@ dependencies {
     }
     compile "com.github.CheeseSoftware:PowerfulPermsAPI:${powerfulperms_version}"
     compile "me.lucko.luckperms:luckperms-api:${luckperms_version}"
+    compile "com.imaginarycode.minecraft:RedisBungee:${redisBungee_version}"
     
     shadowRelocate "com.typesafe:config:${hocon_version}"
     
